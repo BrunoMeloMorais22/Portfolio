@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background: rgb(2, 2, 2);
+    color: white;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+}
+
+nav{
+    margin-left: 250px;
+}
+
+nav > a{
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 20px;
+    color: white;
+}
+
+#links_extras{
+    font-size: 25px;
+    margin: auto;
+    color: white;
+}
+
+#links_extras > a{
+    color: white;
+}
+
+main{
+    background: #111;
+    color: white;
+    padding: 40px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.profile > img{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.descricao{
+    max-width: 500px;
+}
+
+.descricao > h1{
+    font-size: 2.5rem;
+}
+
+.descricao > span{
+    color: #00ffcc;
+    display: none;
+}
+
+.icones {
+    margin-top: 20px;
+}
+
+.icones a {
+    margin-right: 15px;
+    font-size: 1.5rem;
+    color: white;
+    transition: 0.3s;
+}
+
+.icones a:hover {
+    color: #00ffcc;
+}
+
+.numeros{
+    display: flex;
+    background: gray;
+    padding: 30px;
+}
+
+.estatistica{
+    margin-left: 130px;
+}
+
+.estatistica > p{
+    font-size: 50px;
+}
+
+.trabalhos{
+    background: rgb(19, 19, 19);
+    padding: 20px;
+    color: white;
+}
+
+#ofertas_trabalho > h1{
+    text-align: center;
+    color: green;
+}
+
+#ofertas_trabalho > h2{
+    text-align: center;
+    color: rgb(104, 103, 103);
+}
+
+.cards{
+    width: 300px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background: black;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.cards > p{
+    color: rgb(146, 146, 146);
+    font-size: 20px;
+}
+
+.skills-section {
+    margin: auto;
+    background: rgba(44, 44, 44, 0.993);
+}
+
+.skills-section h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-section h2::before {
+    content: '•Projects';
+    color: #00ffae;
+    font-size: 30px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-left: 350px;
+    gap: 40px;
+}
+
+.icons-box {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(5, 50px);
+    gap: 20px;
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.icons-box img {
+    width: 40px;
+    height: 40px;
+}
+
+.skills-list {
+    flex: 1;
+    max-width: 500px;
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-radius: 12px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.skills-list strong {
+    color: #fff;
+}
+
+.skills-list p {
+    margin: 12px 0;
+}
+
+#projects{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.principal{
+    background: rgb(56, 56, 56);
+    padding: 40px;
+}
+
+.principal > h1::before{
+    content: "•Projects";
+    display: block;
+    color: #00ffae;
+}
+
+.project-card {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin: 30px auto;
+    max-width: 1100px;
+    background-color: #1e293b;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+}
+
+.project-image {
+    flex: 1 1 350px;
+    min-height: 260px;
+    background-size: cover;
+    background-position: center;
+}
+
+span{
+    color: red;
+    font-size: 17px;
+}
+
+.project-content {
+    flex: 1 1 400px;
+    padding: 2rem;
+}
+
+.project-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #38bdf8;
+}
+
+.tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    background-color: #334155;
+    color: #cbd5e1;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.tab.active {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border-color: #0ea5e9;
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-content p {
+    margin: 0.7rem 0;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.btn-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.6rem;
+    background-color: #38bdf8;
+    color: #0f172a;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(56,189,248,0.4);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-link:hover {
+    background-color: #0ea5e9;
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 800px) {
+    .project-card {
+    flex-direction: column;
+    }
+    .project-image {
+    min-height: 200px;
+    }
+}
+
+.contato {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contato h2 {
+  font-size: 32px;
+  color: #0033A0;
+}
+
+.contato-info i {
+  color: #0033A0;
+  margin-right: 8px;
+}
+
+.contato-info p, .contato-info a {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+}
+
+.contato-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin-inline: auto;
+}
+
+.contato-form input, .contato-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.contato-form button {
+  background-color: #0033A0;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
