@@ -27,17 +27,7 @@ nav > a{
     color: white;
 }
 
-#links_extras{
-    font-size: 25px;
-    margin: auto;
-    color: white;
-}
-
-#links_extras > a{
-    color: white;
-}
-
-main{
+#profile{
     background: #111;
     color: white;
     padding: 40px;
