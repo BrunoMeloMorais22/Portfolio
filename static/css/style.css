@@ -31,7 +31,6 @@ nav > a{
     background: #111;
     color: white;
     padding: 40px;
-    background-image: url('/static/image/profile.jpg');
 }
 
 .profile{
