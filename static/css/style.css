@@ -233,6 +233,7 @@ nav > a{
 
 #atualizacao{
     color: red;
+    font-weight: bold;
     font-size: 17px;
 }
 
@@ -245,7 +246,7 @@ nav > a{
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #38bdf8;
+    color: #ffffff;
 }
 
 .tabs {
@@ -290,8 +291,8 @@ nav > a{
     display: inline-block;
     margin-top: 1.5rem;
     padding: 0.7rem 1.6rem;
-    background-color: #38bdf8;
-    color: #0f172a;
+    background-color: #000000;
+    color: #ffffff;
     font-weight: 700;
     border-radius: 8px;
     text-decoration: none;
@@ -320,24 +321,25 @@ nav > a{
 
 .contato {
   padding: 40px;
-  background-color: #f9f9f9;
+  background-color: #1d1d1dcb;
   text-align: center;
 }
 
 .contato h2 {
   font-size: 32px;
-  color: #0033A0;
+  color: #ffffff;
 }
 
 .contato-info i {
-  color: #0033A0;
+  color: #ffffff;
   margin-right: 8px;
 }
 
 .contato-info p, .contato-info a {
   margin: 10px 0;
+  font-weight: bold;
   font-size: 18px;
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -350,6 +352,11 @@ nav > a{
   margin-inline: auto;
 }
 
+#contato > p{
+    font-weight: bold;
+    color: white;
+}
+
 .contato-form input, .contato-form textarea {
   padding: 12px;
   border-radius: 8px;
@@ -357,7 +364,7 @@ nav > a{
 }
 
 .contato-form button {
-  background-color: #0033A0;
+  background-color: #000000;
   color: white;
   padding: 12px;
   border: none;
