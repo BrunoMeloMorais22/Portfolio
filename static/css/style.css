@@ -467,3 +467,54 @@ nav > a{
   }
 }
 
+.about{
+    background: black;
+    color: white;
+    border: 1px solid #2f2f2f;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 80px auto;
+    max-width: 1100px;
+}
+
+.about-container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-title h2{
+    font-size: 40px;
+}
+
+.about-content{
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.about-info{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-top:30px;
+}
+
+.info-card{
+    background:#1c1c1c;
+    border:1px solid #2d2d2d;
+    border-radius:10px;
+    padding:12px 18px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:white;
+}
+
+.info-card i{
+    color:#4dabf7;
+    font-size:18px;
+}
